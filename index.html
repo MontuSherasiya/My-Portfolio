@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Montu Sherasiya — Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="cursor" id="cur"></div>
+    <div class="cursor-ring" id="ring"></div>
+
+    <!-- ===== NAV ===== -->
+    <nav>
+        <a href="#hero" class="logo">MS</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <a href="mailto:montusherasiya@gmail.com" class="nav-cta">Hire Me →</a>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="grid-lines"></div>
+            <div class="orb orb1"></div>
+            <div class="orb orb2"></div>
+            <div class="orb orb3"></div>
+        </div>
+
+        <div class="hero-left">
+            <div class="hero-tag">Available for opportunities</div>
+            <h1 class="hero-name">
+                <span class="first">Montu</span>
+                <span class="last">Sherasiya</span>
+            </h1>
+            <p class="hero-title">Full-Stack Developer · React · Node.js · Flutter</p>
+            <p class="hero-desc">
+                I don't just write code — I create impact. Building modern digital experiences with clean architecture,
+                pixel-perfect UI, and backend systems that scale.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work ↓</a>
+                <a href="mailto:montusherasiya@gmail.com" class="btn btn-outline">Let's Talk →</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/MontuSherasiya" target="_blank" class="social-link" title="GitHub">🐙</a>
+                <a href="https://linkedin.com/in/montu-s-595b902b8" target="_blank" class="social-link"
+                    title="LinkedIn">💼</a>
+                <a href="mailto:montusherasiya@gmail.com" class="social-link" title="Email">📧</a>
+                <a href="tel:+918799465499" class="social-link" title="Phone">📱</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <div class="dot dot-r"></div>
+                    <div class="dot dot-y"></div>
+                    <div class="dot dot-g"></div>
+                    <span class="terminal-title">montu.json</span>
+                </div>
+                <div class="terminal-body">
+                    <span class="t-obj">{</span><br>
+                    &nbsp;&nbsp;<span class="t-comment">// Full-Stack Developer</span><br>
+                    &nbsp;&nbsp;<span class="t-key">"name"</span>: <span class="t-str">"Montu Sherasiya"</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-str">"Full-Stack
+                        Developer"</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"location"</span>: <span class="t-str">"Rajkot, India
+                        🇮🇳"</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"available"</span>: <span class="t-bool">true</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"experience"</span>: <span class="t-str">"Internship"</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"education"</span>: <span class="t-str">"BCA @ Darshan
+                        University"</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"stack"</span>: [<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"React"</span>, <span class="t-str">"Next.js"</span>,
+                    <span class="t-str">"Node.js"</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"Flutter"</span>, <span class="t-str">"MongoDB"</span>,
+                    <span class="t-str">"Docker"</span><br>
+                    &nbsp;&nbsp;],<br>
+                    &nbsp;&nbsp;<span class="t-key">"contact"</span>: <span
+                        class="t-str">"montusherasiya@gmail.com"</span>,<br>
+                    &nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-str">"Open to work 🚀"</span><br>
+                    <span class="t-obj">}</span><span class="t-cursor"></span>
+                </div>
+            </div>
+            <div class="stat-strip">
+                <div class="stat-item">
+                    <div class="stat-num">7+</div>
+                    <div class="stat-lbl">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">10+</div>
+                    <div class="stat-lbl">Technologies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">3+</div>
+                    <div class="stat-lbl">Years Study</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">∞</div>
+                    <div class="stat-lbl">Passion</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <div id="about">
+        <div class="section-wrap">
+            <div class="section-label reveal">
+                <span class="s-num">01 —</span>
+                <h2 class="s-title">About Me</h2>
+                <div class="s-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>Hey! I'm <strong>Montu Sherasiya</strong>, a passionate full-stack developer from <strong>Rajkot,
+                            Gujarat, India</strong>. I recently completed my BCA from Darshan University and have been
+                        obsessed with building things for the web and mobile since day one.</p>
+                    <p>I specialize in <strong>React & Next.js</strong> on the frontend,
+                        <strong>Node.js/Express</strong> on the backend, and <strong>Flutter</strong> for cross-platform
+                        mobile apps. I've shipped a full-stack blog platform during my internship, built YouTube-like
+                        backend systems, and love working across the entire stack.</p>
+                    <p>Currently open to <strong>full-time roles</strong>, freelance projects, and exciting
+                        collaborations. Let's build something great together.</p>
+                    <div class="about-chips">
+                        <span class="chip">React Developer</span>
+                        <span class="chip">Next.js</span>
+                        <span class="chip">Node.js Backend</span>
+                        <span class="chip">Express</span>
+                        <span class="chip">TypeScript</span>
+                        <span class="chip">Flutter Mobile</span>
+                        <span class="chip">PHP</span>
+                        <span class="chip">Python</span>
+                    </div>
+                </div>
+                <div class="about-card reveal">
+                    <div class="info-row">
+                        <span class="lbl">Name</span>
+                        <span class="val">Montu Sherasiya</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="lbl">Email</span>
+                        <span class="val"><a href="mailto:montusherasiya@gmail.com">montusherasiya@gmail.com</a></span>
+                    </div>
+                    <div class="info-row">
+                        <span class="lbl">Phone</span>
+                        <span class="val"><a href="tel:+918799465499">+91 87994 65499</a></span>
+                    </div>
+                    <div class="info-row">
+                        <span class="lbl">Location</span>
+                        <span class="val">Rajkot, Gujarat, India</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="lbl">GitHub</span>
+                        <span class="val"><a href="https://github.com/MontuSherasiya"
+                                target="_blank">MontuSherasiya</a></span>
+                    </div>
+                    <div class="info-row">
+                        <span class="lbl">LinkedIn</span>
+                        <span class="val"><a href="https://linkedin.com/in/montu-s-595b902b8"
+                                target="_blank">montu-s-595b902b8</a></span>
+                    </div>
+                    <div class="info-row">
+                        <span class="lbl">Status</span>
+                        <span class="val" style="color:var(--teal)">● Available for work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SKILLS ===== -->
+    <div id="skills">
+        <div class="section-wrap" style="padding-top:0">
+            <div class="section-label reveal">
+                <span class="s-num">02 —</span>
+                <h2 class="s-title">Skills & Technologies</h2>
+                <div class="s-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="sk-icon">🎨</div>
+                    <div class="sk-cat">Frontend</div>
+                    <div class="sk-name">UI Development</div>
+                    <div class="sk-tags">
+                        <span class="sk-tag">React</span><span class="sk-tag">Next.js</span>
+                        <span class="sk-tag">Redux</span><span class="sk-tag">Tailwind</span>
+                        <span class="sk-tag">HTML5</span><span class="sk-tag">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="sk-icon">⚙️</div>
+                    <div class="sk-cat">Backend</div>
+                    <div class="sk-name">Server-Side</div>
+                    <div class="sk-tags">
+                        <span class="sk-tag">Node.js</span><span class="sk-tag">Express.js</span>
+                        <span class="sk-tag">REST APIs</span><span class="sk-tag">MVC</span>
+                        <span class="sk-tag">Appwrite</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="sk-icon">🗄️</div>
+                    <div class="sk-cat">Database</div>
+                    <div class="sk-name">Data Storage</div>
+                    <div class="sk-tags">
+                        <span class="sk-tag">MongoDB</span><span class="sk-tag">SQL</span>
+                        <span class="sk-tag">Mongoose</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="sk-icon">📱</div>
+                    <div class="sk-cat">Mobile</div>
+                    <div class="sk-name">Cross-Platform</div>
+                    <div class="sk-tags">
+                        <span class="sk-tag">Flutter</span><span class="sk-tag">Dart</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="sk-icon">💻</div>
+                    <div class="sk-cat">Languages</div>
+                    <div class="sk-name">Programming</div>
+                    <div class="sk-tags">
+                        <span class="sk-tag">JavaScript</span><span class="sk-tag">TypeScript</span>
+                        <span class="sk-tag">Python</span><span class="sk-tag">Dart</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="sk-icon">🛠️</div>
+                    <div class="sk-cat">DevOps & Tools</div>
+                    <div class="sk-name">Dev Workflow</div>
+                    <div class="sk-tags">
+                        <span class="sk-tag">Git</span><span class="sk-tag">GitHub</span>
+                        <span class="sk-tag">Docker</span><span class="sk-tag">Postman</span>
+                        <span class="sk-tag">Vercel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SKILL BARS -->
+            <div class="skill-bars" style="margin-top:3rem">
+                <div class="bar-row reveal">
+                    <div class="bar-head"><span class="bar-name">React / Next.js</span><span class="bar-pct">88%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="--w:0.88" data-w="0.88"></div>
+                    </div>
+                </div>
+                <div class="bar-row reveal">
+                    <div class="bar-head"><span class="bar-name">Node.js / Express</span><span
+                            class="bar-pct">82%</span></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="0.82"></div>
+                    </div>
+                </div>
+                <div class="bar-row reveal">
+                    <div class="bar-head"><span class="bar-name">JavaScript / TypeScript</span><span
+                            class="bar-pct">85%</span></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="0.85"></div>
+                    </div>
+                </div>
+                <div class="bar-row reveal">
+                    <div class="bar-head"><span class="bar-name">Flutter / Dart</span><span class="bar-pct">75%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="0.75"></div>
+                    </div>
+                </div>
+                <div class="bar-row reveal">
+                    <div class="bar-head"><span class="bar-name">MongoDB / SQL</span><span class="bar-pct">78%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="0.78"></div>
+                    </div>
+                </div>
+                <div class="bar-row reveal">
+                    <div class="bar-head"><span class="bar-name">Docker / DevOps</span><span class="bar-pct">65%</span>
+                    </div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="0.65"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <div id="experience">
+        <div class="section-wrap" style="padding-top:0">
+            <div class="section-label reveal">
+                <span class="s-num">03 —</span>
+                <h2 class="s-title">Experience</h2>
+                <div class="s-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="tl-item reveal">
+                    <div class="exp-card">
+                        <div class="exp-head">
+                            <div>
+                                <div class="exp-role">Web Development Intern</div>
+                                <div class="exp-co">MegaBlog — Full Stack Blog Platform</div>
+                            </div>
+                            <div class="exp-badge">Dec 2025 – Mar 2026</div>
+                        </div>
+                        <ul class="exp-pts">
+                            <li>Built a production-ready full-stack blog platform using React and Appwrite with user
+                                authentication, complete CRUD operations, and image upload functionality.</li>
+                            <li>Developed fully responsive UI components and integrated APIs for dynamic data handling
+                                across all device types.</li>
+                            <li>Debugged and optimized application performance, improving load times and reducing API
+                                error rates significantly.</li>
+                            <li>Solved real-world engineering challenges around authentication flows, REST API
+                                integration, and data management in a live production codebase.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== PROJECTS ===== -->
+    <div id="projects">
+        <div class="section-wrap" style="padding-top:0">
+            <div class="section-label reveal">
+                <span class="s-num">04 —</span>
+                <h2 class="s-title">Projects</h2>
+                <div class="s-line"></div>
+            </div>
+            <div class="projects-grid">
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">🍽️</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya/Restaurant-APP" target="_blank"
+                                class="proj-link">GitHub ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">Restaurant Management App</div>
+                    <div class="proj-desc">Full-stack web application with dynamic UI, REST API integration, and
+                        complete CRUD functionality for managing restaurant operations end-to-end.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">React.js</span><span class="p-tag">Node.js</span>
+                        <span class="p-tag">Express.js</span><span class="p-tag">REST API</span>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">▶️</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya/Backend-YouTube-System" target="_blank"
+                                class="proj-link">GitHub ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">YouTube-like Backend System</div>
+                    <div class="proj-desc">Scalable backend built with MVC architecture. Features RESTful APIs, secure
+                        MongoDB integration, and proper environment-based configuration management.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">Node.js</span><span class="p-tag">Express</span>
+                        <span class="p-tag">MongoDB</span><span class="p-tag">MVC</span>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">✍️</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya/MegaBlog" target="_blank"
+                                class="proj-link">GitHub ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">MegaBlog — Full Stack Blog</div>
+                    <div class="proj-desc">Feature-rich blogging platform with authentication, rich text editing, image
+                        uploads, and full CRUD. Built during internship with React + Appwrite backend.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">React</span><span class="p-tag">Appwrite</span>
+                        <span class="p-tag">Auth</span><span class="p-tag">CRUD</span>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">💑</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya" target="_blank" class="proj-link">GitHub ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">Matrimonial Mobile App</div>
+                    <div class="proj-desc">Cross-platform mobile application with responsive UI and structured data
+                        management for a real-world matchmaking platform targeting Android & iOS.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">Flutter</span><span class="p-tag">Dart</span>
+                        <span class="p-tag">Cross-platform</span>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">🐳</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya/Docker" target="_blank" class="proj-link">GitHub
+                                ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">Full-Stack with Docker</div>
+                    <div class="proj-desc">Containerized full-stack application exploring Docker workflows,
+                        multi-service orchestration, and production-ready deployment patterns.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">Docker</span><span class="p-tag">Full-Stack</span><span
+                            class="p-tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">⚡</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya/NextJs" target="_blank" class="proj-link">GitHub
+                                ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">Next.js Project</div>
+                    <div class="proj-desc">Exploring Next.js with TypeScript — SSR, file-based routing, and modern React
+                        patterns for performant, SEO-friendly web applications.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">Next.js</span><span class="p-tag">TypeScript</span><span
+                            class="p-tag">React</span>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal">
+                    <div class="proj-top">
+                        <div class="proj-icon">💭</div>
+                        <div class="proj-links">
+                            <a href="https://github.com/MontuSherasiya/QuizApp" target="_blank" class="proj-link">GitHub
+                                ↗</a>
+                        </div>
+                    </div>
+                    <div class="proj-name">Real-Time Quiz App</div>
+                    <div class="proj-desc">Interactive quiz platform with timer-based question logic, authentication,
+                        and dynamic scoring for a competitive, real-time quiz experience.</div>
+                    <div class="proj-stack">
+                        <span class="p-tag">HTML</span><span class="p-tag">CSS</span><span
+                            class="p-tag">JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== EDUCATION ===== -->
+    <div id="education">
+        <div class="section-wrap" style="padding-top:0">
+            <div class="section-label reveal">
+                <span class="s-num">05 —</span>
+                <h2 class="s-title">Education</h2>
+                <div class="s-line"></div>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon">🎓</div>
+                <div>
+                    <div class="edu-deg">Bachelor of Computer Applications (BCA)</div>
+                    <div class="edu-uni">Darshan University</div>
+                    <div class="edu-loc">Rajkot, Gujarat, India</div>
+                </div>
+                <div class="edu-meta">
+                    <div class="edu-gpa">7.00 GPA</div>
+                    <div class="edu-period">Jul 2023 – Mar 2026</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact-section">
+        <div class="contact-inner">
+            <div class="contact-grid">
+                <div class="reveal">
+                    <div class="contact-tag">📬 Let's connect</div>
+                    <h2 class="contact-h">Have a project<br /><span>in mind?</span></h2>
+                    <p class="contact-p">I'm actively looking for new opportunities — full-time roles, freelance
+                        projects, or interesting collaborations. Whether you have a project in mind or just want to say
+                        hi, my inbox is always open.</p>
+                    <a href="mailto:montusherasiya@gmail.com" class="btn btn-primary" style="display:inline-flex">Send a
+                        message →</a>
+                </div>
+                <div class="c-links reveal">
+                    <a href="mailto:montusherasiya@gmail.com" class="c-link">
+                        <div class="c-icon">📧</div>
+                        <div>
+                            <div class="c-lbl">Email</div>
+                            <div class="c-val">montusherasiya@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/MontuSherasiya" target="_blank" class="c-link">
+                        <div class="c-icon">🐙</div>
+                        <div>
+                            <div class="c-lbl">GitHub</div>
+                            <div class="c-val">github.com/MontuSherasiya</div>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/montu-s-595b902b8" target="_blank" class="c-link">
+                        <div class="c-icon">💼</div>
+                        <div>
+                            <div class="c-lbl">LinkedIn</div>
+                            <div class="c-val">linkedin.com/in/montu-s-595b902b8</div>
+                        </div>
+                    </a>
+                    <a href="tel:+918799465499" class="c-link">
+                        <div class="c-icon">📱</div>
+                        <div>
+                            <div class="c-lbl">Phone</div>
+                            <div class="c-val">+91 87994 65499</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Designed & built with ♥ by <span>Montu Sherasiya</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
